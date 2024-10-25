@@ -8,6 +8,7 @@ import { routes } from './routes';
 let app: AppType | null = null;
 let router;
 
+/** Required to allow the main app to work properly. */
 const BASE_PATH = '/vue-micro';
 
 const render = (props: any = {}) => {
